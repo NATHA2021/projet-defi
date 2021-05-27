@@ -1,0 +1,148 @@
+/* Définition des polices personnalisées */
+@font-face
+{
+	font-family: 'Roboto', sans-serif;
+
+}
+section nav a, section p, section h1, section h3, section ul a
+{
+	font-family: 'Roboto', serif;
+}
+
+.bloc_page
+{
+	width: 	900px;
+	margin: auto;
+}
+/*Header*/
+
+
+.logo_long
+{
+	display: flex;
+	align-content: flex-start;
+ } 
+
+.container
+{
+flex-direction: row;
+align-self: flex-start;
+display: flex;
+padding-top: 500px;
+}  
+
+
+.backgroung_image
+{
+    background: url("images/backgroung_image1.jpg") no-repeat;
+    align-content: flex-start;
+    display: flex;
+	height: 500px;
+	justify-content: center;
+}
+/* Navigation */
+
+.container1
+{
+	display: flex;
+	flex-direction: row;
+	align-self: flex-end;
+	align-content: flex-end;
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+nav li
+{
+	margin-right: 15PX;
+}
+
+nav a
+{
+	font-size: 1.5em
+	color: black;
+	padding: 3px ;
+	text-decoration: none;
+	border-bottom: 3px
+	text-transform: uppercase;
+	font-weight: normal;
+
+}
+
+.title
+{
+    font-family: 'Roboto', serif;
+    font-size:25px;
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    padding-top: 175px;
+    padding-left: 350px;
+}
+.element
+{
+	text-align: center;
+	position: relative;
+	bottom: 250px;
+}
+
+h1
+{
+	text-align: center;
+
+}
+p
+{
+	text-align: center;
+}
+
+
+.description
+{    
+	font-family: 'Roboto', Serif ;
+	font-size: 25px;
+	text-align: justify;
+	position: center;
+	width: 825px;
+
+
+}
+.graphisme
+{
+	background: url('images/graphic-design.png') no-repeat top center;
+	display: flex;
+	align-self: center;
+    padding-top: 60px;
+	font-size: 15px;
+	width: 250PX;
+}
+
+h3
+{
+	display: absolute;
+	text-align: center;
+
+}
+.container2
+{
+	flex-direction: row;
+	display: flex;
+}
+
+
+.strategie
+{
+	background: url('images/Strategie.png') no-repeat top center;
+	display: flex;
+	align-self: center;
+	font-size: 15px;
+	padding-top: 60px;
+
+}
+
+
